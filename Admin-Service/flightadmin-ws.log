@@ -1,0 +1,461 @@
+2022-02-01 13:09:20.598  INFO 1696 --- [restartedMain] com.flightapp.AdminServiceApplication    : Starting AdminServiceApplication using Java 11.0.12 on JrJavaFseCogn-1 with PID 1696 (C:\flight booking app\Admin-Service\target\classes started by User in C:\flight booking app\Admin-Service)
+2022-02-01 13:09:20.606  INFO 1696 --- [restartedMain] com.flightapp.AdminServiceApplication    : No active profile set, falling back to default profiles: default
+2022-02-01 13:09:20.725  INFO 1696 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-01 13:09:20.733  INFO 1696 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-01 13:09:23.084  INFO 1696 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-01 13:09:23.403  INFO 1696 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 298 ms. Found 1 JPA repository interfaces.
+2022-02-01 13:09:23.878  INFO 1696 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ea18b4f7-7710-3626-b4ca-43de719508de
+2022-02-01 13:09:24.970  INFO 1696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9094 (http)
+2022-02-01 13:09:24.991  INFO 1696 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-01 13:09:24.992  INFO 1696 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-01 13:09:25.224  INFO 1696 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-01 13:09:25.225  INFO 1696 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4488 ms
+2022-02-01 13:09:25.407  INFO 1696 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-02-01 13:09:25.768  INFO 1696 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-02-01 13:09:25.788  INFO 1696 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testDB'
+2022-02-01 13:09:26.128  INFO 1696 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-01 13:09:26.291  INFO 1696 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-02-01 13:09:26.779  INFO 1696 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-01 13:09:27.085  INFO 1696 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-02-01 13:09:28.650  INFO 1696 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-01 13:09:28.667  INFO 1696 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-01 13:09:28.766  WARN 1696 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-01 13:09:29.827  INFO 1696 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@51b4359d, org.springframework.security.web.context.SecurityContextPersistenceFilter@161f2314, org.springframework.security.web.header.HeaderWriterFilter@275268b5, org.springframework.security.web.authentication.logout.LogoutFilter@312507f7, com.flightapp.filter.JwtRequestFilter@4895a718, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@12baceed, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@23251eb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6dcc5a6b, org.springframework.security.web.session.SessionManagementFilter@2ffca651, org.springframework.security.web.access.ExceptionTranslationFilter@9b9385e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@30451dbc]
+2022-02-01 13:09:31.287  WARN 1696 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-02-01 13:09:31.431  INFO 1696 --- [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-01 13:09:31.433  INFO 1696 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-01 13:09:31.498  INFO 1696 --- [RMI TCP Connection(1)-127.0.0.1] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2022-02-01 13:09:31.524  INFO 1696 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 90 ms
+2022-02-01 13:09:31.536  INFO 1696 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-02-01 13:09:31.717  WARN 1696 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-02-01 13:09:31.830  INFO 1696 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-02-01 13:09:31.894  INFO 1696 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-02-01 13:09:31.904  INFO 1696 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-01 13:09:31.943  INFO 1696 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-02-01 13:09:31.943  INFO 1696 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-02-01 13:09:31.943  INFO 1696 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-02-01 13:09:31.944  INFO 1696 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-02-01 13:09:31.946  INFO 1696 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-02-01 13:09:31.947  INFO 1696 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-02-01 13:09:31.948  INFO 1696 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-02-01 13:09:32.454  INFO 1696 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-02-01 13:09:32.459  INFO 1696 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-02-01 13:09:32.464  INFO 1696 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-02-01 13:09:32.472  INFO 1696 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1643701172471 with initial instances count: 1
+2022-02-01 13:09:32.476  INFO 1696 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application FLIGHTADMIN-WS with eureka with status UP
+2022-02-01 13:09:32.477  INFO 1696 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1643701172477, current=UP, previous=STARTING]
+2022-02-01 13:09:32.480  INFO 1696 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHTADMIN-WS/host.docker.internal:flightadmin-ws:9094: registering service...
+2022-02-01 13:09:32.539  INFO 1696 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHTADMIN-WS/host.docker.internal:flightadmin-ws:9094 - registration status: 204
+2022-02-01 13:09:32.551  INFO 1696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9094 (http) with context path ''
+2022-02-01 13:09:32.554  INFO 1696 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9094
+2022-02-01 13:09:32.691  INFO 1696 --- [restartedMain] com.flightapp.AdminServiceApplication    : Started AdminServiceApplication in 13.231 seconds (JVM running for 15.235)
+2022-02-01 13:10:09.456  WARN 1696 --- [http-nio-9094-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.Date` from String "1": expected format "dd-MM-yyyy"; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.util.Date` from String "1": expected format "dd-MM-yyyy"<EOL> at [Source: (PushbackInputStream); line: 1, column: 73] (through reference chain: com.flightapp.dto.RequestFlightDetailsDTO["startDate"])]
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                2022-02-01 20:30:18.778  INFO 9724 --- [restartedMain] com.flightapp.AdminServiceApplication    : Starting AdminServiceApplication using Java 11.0.12 on JrJavaFseCogn-1 with PID 9724 (C:\flight booking app\Admin-Service\target\classes started by User in C:\flight booking app\Admin-Service)
+2022-02-01 20:30:18.782  INFO 9724 --- [restartedMain] com.flightapp.AdminServiceApplication    : No active profile set, falling back to default profiles: default
+2022-02-01 20:30:18.925  INFO 9724 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-02-01 20:30:18.927  INFO 9724 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-02-01 20:30:22.664  INFO 9724 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-01 20:30:23.170  INFO 9724 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 453 ms. Found 1 JPA repository interfaces.
+2022-02-01 20:30:23.693  INFO 9724 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ea18b4f7-7710-3626-b4ca-43de719508de
+2022-02-01 20:30:25.042  INFO 9724 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9094 (http)
+2022-02-01 20:30:25.057  INFO 9724 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-01 20:30:25.058  INFO 9724 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-01 20:30:25.280  INFO 9724 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-01 20:30:25.281  INFO 9724 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6352 ms
+2022-02-01 20:30:25.453  INFO 9724 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-02-01 20:30:25.713  INFO 9724 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-02-01 20:30:25.731  INFO 9724 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testDB'
+2022-02-01 20:30:26.147  INFO 9724 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-01 20:30:26.386  INFO 9724 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-02-01 20:30:27.210  INFO 9724 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-01 20:30:28.157  INFO 9724 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-02-01 20:30:32.762  INFO 9724 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-01 20:30:32.779  INFO 9724 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-01 20:30:32.895  WARN 9724 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-01 20:30:34.137  INFO 9724 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6b39c104, org.springframework.security.web.context.SecurityContextPersistenceFilter@137734cc, org.springframework.security.web.header.HeaderWriterFilter@412c945, org.springframework.security.web.authentication.logout.LogoutFilter@41b36cc6, com.flightapp.filter.JwtRequestFilter@1b5607c0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@276124a0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@701ef50c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2d308f63, org.springframework.security.web.session.SessionManagementFilter@51f81772, org.springframework.security.web.access.ExceptionTranslationFilter@7a96cec7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6b072d52]
+2022-02-01 20:30:35.686  WARN 9724 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-02-01 20:30:35.839  INFO 9724 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-02-01 20:30:35.960  WARN 9724 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-02-01 20:30:36.031  INFO 9724 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2022-02-01 20:30:36.216  INFO 9724 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-02-01 20:30:36.288  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-02-01 20:30:36.301  INFO 9724 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-01 20:30:36.346  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-02-01 20:30:36.347  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-02-01 20:30:36.348  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-02-01 20:30:36.349  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-02-01 20:30:36.349  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-02-01 20:30:36.349  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-02-01 20:30:36.350  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-02-01 20:30:37.254  INFO 9724 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-01 20:30:37.257  INFO 9724 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-01 20:30:37.261  INFO 9724 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2022-02-01 20:30:37.286  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-02-01 20:30:37.301  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-02-01 20:30:37.327  INFO 9724 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-02-01 20:30:37.341  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1643727637339 with initial instances count: 1
+2022-02-01 20:30:37.348  INFO 9724 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application FLIGHTADMIN-WS with eureka with status UP
+2022-02-01 20:30:37.353  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1643727637353, current=UP, previous=STARTING]
+2022-02-01 20:30:37.411  INFO 9724 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHTADMIN-WS/host.docker.internal:flightadmin-ws:9094: registering service...
+2022-02-01 20:30:37.428  INFO 9724 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9094 (http) with context path ''
+2022-02-01 20:30:37.432  INFO 9724 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9094
+2022-02-01 20:30:37.533  INFO 9724 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHTADMIN-WS/host.docker.internal:flightadmin-ws:9094 - registration status: 204
+2022-02-01 20:30:38.985  INFO 9724 --- [restartedMain] com.flightapp.AdminServiceApplication    : Started AdminServiceApplication in 21.941 seconds (JVM running for 24.157)
+2022-02-01 20:32:42.449  INFO 9724 --- [Thread-1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application FLIGHTADMIN-WS with eureka with status DOWN
+2022-02-01 20:32:42.450  INFO 9724 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1643727762450, current=DOWN, previous=UP]
+2022-02-01 20:32:42.451  INFO 9724 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHTADMIN-WS/host.docker.internal:flightadmin-ws:9094: registering service...
+2022-02-01 20:32:42.463  INFO 9724 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHTADMIN-WS/host.docker.internal:flightadmin-ws:9094 - registration status: 204
+2022-02-01 20:32:42.573  INFO 9724 --- [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-01 20:32:42.790  WARN 9724 --- [Thread-1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-02-01 20:32:42.792  INFO 9724 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-02-01 20:32:42.800  INFO 9724 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-02-01 20:32:42.802  INFO 9724 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-02-01 20:32:45.812  INFO 9724 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-02-01 20:32:45.831  INFO 9724 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHTADMIN-WS/host.docker.internal:flightadmin-ws:9094 - deregister  status: 200
+2022-02-01 20:32:45.838  INFO 9724 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-02-01 20:32:46.160  INFO 9724 --- [restartedMain] com.flightapp.AdminServiceApplication    : Starting AdminServiceApplication using Java 11.0.12 on JrJavaFseCogn-1 with PID 9724 (C:\flight booking app\Admin-Service\target\classes started by User in C:\flight booking app\Admin-Service)
+2022-02-01 20:32:46.161  INFO 9724 --- [restartedMain] com.flightapp.AdminServiceApplication    : No active profile set, falling back to default profiles: default
+2022-02-01 20:32:46.724  INFO 9724 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-01 20:32:46.747  INFO 9724 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 1 JPA repository interfaces.
+2022-02-01 20:32:46.856  INFO 9724 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ea18b4f7-7710-3626-b4ca-43de719508de
+2022-02-01 20:32:46.971  INFO 9724 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9094 (http)
+2022-02-01 20:32:46.974  INFO 9724 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-01 20:32:46.976  INFO 9724 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-01 20:32:47.036  INFO 9724 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-01 20:32:47.036  INFO 9724 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 872 ms
+2022-02-01 20:32:47.072  INFO 9724 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-02-01 20:32:47.077  INFO 9724 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-02-01 20:32:47.081  INFO 9724 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testDB'
+2022-02-01 20:32:47.135  INFO 9724 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-01 20:32:47.146  INFO 9724 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-02-01 20:32:47.217  INFO 9724 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-01 20:32:47.217  INFO 9724 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-01 20:32:47.244  WARN 9724 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-01 20:32:47.352  INFO 9724 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@30442034, org.springframework.security.web.context.SecurityContextPersistenceFilter@642f5384, org.springframework.security.web.header.HeaderWriterFilter@2a69af41, org.springframework.security.web.authentication.logout.LogoutFilter@8845638, com.flightapp.filter.JwtRequestFilter@387a7cd3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@143c2f77, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@73489916, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@33bfd3ee, org.springframework.security.web.session.SessionManagementFilter@393b97e2, org.springframework.security.web.access.ExceptionTranslationFilter@11bc2bf5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@730c9cbd]
+2022-02-01 20:32:47.752  WARN 9724 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-02-01 20:32:47.866  INFO 9724 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-02-01 20:32:47.893  WARN 9724 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-02-01 20:32:47.904  INFO 9724 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2022-02-01 20:32:47.945  INFO 9724 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-02-01 20:32:47.949  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-02-01 20:32:47.951  INFO 9724 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-01 20:32:47.961  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-02-01 20:32:47.962  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-02-01 20:32:47.962  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-02-01 20:32:47.962  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-02-01 20:32:47.962  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-02-01 20:32:47.962  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-02-01 20:32:47.962  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-02-01 20:32:47.988  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-02-01 20:32:47.992  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-02-01 20:32:47.994  INFO 9724 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-02-01 20:32:47.995  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1643727767995 with initial instances count: 2
+2022-02-01 20:32:47.997  INFO 9724 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application FLIGHTADMIN-WS with eureka with status UP
+2022-02-01 20:32:47.998  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1643727767998, current=UP, previous=STARTING]
+2022-02-01 20:32:48.001  INFO 9724 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHTADMIN-WS/host.docker.internal:flightadmin-ws:9094: registering service...
+2022-02-01 20:32:48.002  INFO 9724 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9094 (http) with context path ''
+2022-02-01 20:32:48.006  INFO 9724 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9094
+2022-02-01 20:32:48.022  INFO 9724 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHTADMIN-WS/host.docker.internal:flightadmin-ws:9094 - registration status: 204
+2022-02-01 20:32:48.137  INFO 9724 --- [restartedMain] com.flightapp.AdminServiceApplication    : Started AdminServiceApplication in 2.136 seconds (JVM running for 153.31)
+2022-02-01 20:32:48.143  INFO 9724 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-02-01 20:34:17.090  INFO 9724 --- [Thread-8] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application FLIGHTADMIN-WS with eureka with status DOWN
+2022-02-01 20:34:17.092  INFO 9724 --- [Thread-8] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1643727857092, current=DOWN, previous=UP]
+2022-02-01 20:34:17.094  INFO 9724 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHTADMIN-WS/host.docker.internal:flightadmin-ws:9094: registering service...
+2022-02-01 20:34:17.106  INFO 9724 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHTADMIN-WS/host.docker.internal:flightadmin-ws:9094 - registration status: 204
+2022-02-01 20:34:17.186  INFO 9724 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-01 20:34:17.401  WARN 9724 --- [Thread-8] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-02-01 20:34:17.402  INFO 9724 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-02-01 20:34:17.408  INFO 9724 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2022-02-01 20:34:17.413  INFO 9724 --- [Thread-8] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-02-01 20:34:20.416  WARN 9724 --- [DiscoveryClient-0] c.netflix.discovery.TimedSupervisorTask  : task supervisor shutting down, can't accept the task
+2022-02-01 20:34:20.416  INFO 9724 --- [Thread-8] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-02-01 20:34:20.436  INFO 9724 --- [Thread-8] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHTADMIN-WS/host.docker.internal:flightadmin-ws:9094 - deregister  status: 200
+2022-02-01 20:34:20.439  INFO 9724 --- [Thread-8] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-02-01 20:34:20.723  INFO 9724 --- [restartedMain] com.flightapp.AdminServiceApplication    : Starting AdminServiceApplication using Java 11.0.12 on JrJavaFseCogn-1 with PID 9724 (C:\flight booking app\Admin-Service\target\classes started by User in C:\flight booking app\Admin-Service)
+2022-02-01 20:34:20.724  INFO 9724 --- [restartedMain] com.flightapp.AdminServiceApplication    : No active profile set, falling back to default profiles: default
+2022-02-01 20:34:21.203  INFO 9724 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-01 20:34:21.223  INFO 9724 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 1 JPA repository interfaces.
+2022-02-01 20:34:21.327  INFO 9724 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ea18b4f7-7710-3626-b4ca-43de719508de
+2022-02-01 20:34:21.434  INFO 9724 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9094 (http)
+2022-02-01 20:34:21.436  INFO 9724 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-01 20:34:21.445  INFO 9724 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-01 20:34:21.498  INFO 9724 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-01 20:34:21.498  INFO 9724 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 771 ms
+2022-02-01 20:34:21.530  INFO 9724 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2022-02-01 20:34:21.535  INFO 9724 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2022-02-01 20:34:21.535  INFO 9724 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testDB'
+2022-02-01 20:34:21.585  INFO 9724 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-01 20:34:21.679  INFO 9724 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-02-01 20:34:21.739  INFO 9724 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-01 20:34:21.741  INFO 9724 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-01 20:34:21.769  WARN 9724 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-01 20:34:21.909  INFO 9724 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@9ef1a25, org.springframework.security.web.context.SecurityContextPersistenceFilter@75256cf4, org.springframework.security.web.header.HeaderWriterFilter@4b1dd511, org.springframework.security.web.authentication.logout.LogoutFilter@4e17d9d0, com.flightapp.filter.JwtRequestFilter@7f16f1d6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1eeb1c89, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3b7be718, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@113492d2, org.springframework.security.web.session.SessionManagementFilter@68286e70, org.springframework.security.web.access.ExceptionTranslationFilter@21794b82, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2a42b720]
+2022-02-01 20:34:22.272  WARN 9724 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-02-01 20:34:22.378  INFO 9724 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-02-01 20:34:22.405  WARN 9724 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-02-01 20:34:22.409  INFO 9724 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2022-02-01 20:34:22.444  INFO 9724 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-02-01 20:34:22.447  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-02-01 20:34:22.447  INFO 9724 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-01 20:34:22.450  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-02-01 20:34:22.452  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-02-01 20:34:22.452  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-02-01 20:34:22.452  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-02-01 20:34:22.453  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-02-01 20:34:22.454  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-02-01 20:34:22.454  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-02-01 20:34:22.477  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-02-01 20:34:22.478  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-02-01 20:34:22.479  INFO 9724 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-02-01 20:34:22.481  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1643727862481 with initial instances count: 2
+2022-02-01 20:34:22.483  INFO 9724 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application FLIGHTADMIN-WS with eureka with status UP
+2022-02-01 20:34:22.483  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1643727862483, current=UP, previous=STARTING]
+2022-02-01 20:34:22.486  INFO 9724 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9094 (http) with context path ''
+2022-02-01 20:34:22.487  INFO 9724 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9094
+2022-02-01 20:34:22.490  INFO 9724 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHTADMIN-WS/host.docker.internal:flightadmin-ws:9094: registering service...
+2022-02-01 20:34:22.506  INFO 9724 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHTADMIN-WS/host.docker.internal:flightadmin-ws:9094 - registration status: 204
+2022-02-01 20:34:22.614  INFO 9724 --- [restartedMain] com.flightapp.AdminServiceApplication    : Started AdminServiceApplication in 2.035 seconds (JVM running for 247.786)
+2022-02-01 20:34:22.618  INFO 9724 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-02-01 20:36:03.691  INFO 9724 --- [Thread-14] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application FLIGHTADMIN-WS with eureka with status DOWN
+2022-02-01 20:36:03.693  INFO 9724 --- [Thread-14] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1643727963693, current=DOWN, previous=UP]
+2022-02-01 20:36:03.697  INFO 9724 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHTADMIN-WS/host.docker.internal:flightadmin-ws:9094: registering service...
+2022-02-01 20:36:03.715  INFO 9724 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHTADMIN-WS/host.docker.internal:flightadmin-ws:9094 - registration status: 204
+2022-02-01 20:36:03.849  INFO 9724 --- [Thread-14] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-01 20:36:04.057  WARN 9724 --- [Thread-14] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-02-01 20:36:04.060  INFO 9724 --- [Thread-14] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2022-02-01 20:36:04.064  INFO 9724 --- [Thread-14] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2022-02-01 20:36:04.066  INFO 9724 --- [Thread-14] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-02-01 20:36:07.076  INFO 9724 --- [Thread-14] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-02-01 20:36:07.095  INFO 9724 --- [Thread-14] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHTADMIN-WS/host.docker.internal:flightadmin-ws:9094 - deregister  status: 200
+2022-02-01 20:36:07.100  INFO 9724 --- [Thread-14] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-02-01 20:36:07.386  INFO 9724 --- [restartedMain] com.flightapp.AdminServiceApplication    : Starting AdminServiceApplication using Java 11.0.12 on JrJavaFseCogn-1 with PID 9724 (C:\flight booking app\Admin-Service\target\classes started by User in C:\flight booking app\Admin-Service)
+2022-02-01 20:36:07.386  INFO 9724 --- [restartedMain] com.flightapp.AdminServiceApplication    : No active profile set, falling back to default profiles: default
+2022-02-01 20:36:07.866  INFO 9724 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-01 20:36:07.886  INFO 9724 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 1 JPA repository interfaces.
+2022-02-01 20:36:07.992  INFO 9724 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ea18b4f7-7710-3626-b4ca-43de719508de
+2022-02-01 20:36:08.100  INFO 9724 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9094 (http)
+2022-02-01 20:36:08.101  INFO 9724 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-01 20:36:08.101  INFO 9724 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-01 20:36:08.135  INFO 9724 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-01 20:36:08.135  INFO 9724 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 746 ms
+2022-02-01 20:36:08.166  INFO 9724 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2022-02-01 20:36:08.171  INFO 9724 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2022-02-01 20:36:08.171  INFO 9724 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testDB'
+2022-02-01 20:36:08.218  INFO 9724 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-01 20:36:08.234  INFO 9724 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-02-01 20:36:08.358  INFO 9724 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-01 20:36:08.359  INFO 9724 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-01 20:36:08.388  WARN 9724 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-01 20:36:08.547  INFO 9724 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7246983d, org.springframework.security.web.context.SecurityContextPersistenceFilter@25f45ebe, org.springframework.security.web.header.HeaderWriterFilter@7b858725, org.springframework.security.web.authentication.logout.LogoutFilter@4ca640f6, com.flightapp.filter.JwtRequestFilter@3b9b41b4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4676c8ee, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@119dd3aa, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7c7c2ced, org.springframework.security.web.session.SessionManagementFilter@76a5985b, org.springframework.security.web.access.ExceptionTranslationFilter@f3d9b9d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@73fb760f]
+2022-02-01 20:36:08.960  WARN 9724 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-02-01 20:36:09.067  INFO 9724 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-02-01 20:36:09.094  WARN 9724 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-02-01 20:36:09.098  INFO 9724 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2022-02-01 20:36:09.130  INFO 9724 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-02-01 20:36:09.132  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-02-01 20:36:09.132  INFO 9724 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-01 20:36:09.134  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-02-01 20:36:09.134  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-02-01 20:36:09.134  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-02-01 20:36:09.135  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-02-01 20:36:09.135  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-02-01 20:36:09.135  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-02-01 20:36:09.135  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-02-01 20:36:09.155  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-02-01 20:36:09.158  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-02-01 20:36:09.158  INFO 9724 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-02-01 20:36:09.159  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1643727969159 with initial instances count: 2
+2022-02-01 20:36:09.161  INFO 9724 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application FLIGHTADMIN-WS with eureka with status UP
+2022-02-01 20:36:09.161  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1643727969161, current=UP, previous=STARTING]
+2022-02-01 20:36:09.164  INFO 9724 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9094 (http) with context path ''
+2022-02-01 20:36:09.166  INFO 9724 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9094
+2022-02-01 20:36:09.164  INFO 9724 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHTADMIN-WS/host.docker.internal:flightadmin-ws:9094: registering service...
+2022-02-01 20:36:09.192  INFO 9724 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHTADMIN-WS/host.docker.internal:flightadmin-ws:9094 - registration status: 204
+2022-02-01 20:36:09.308  INFO 9724 --- [restartedMain] com.flightapp.AdminServiceApplication    : Started AdminServiceApplication in 2.069 seconds (JVM running for 354.481)
+2022-02-01 20:36:09.313  INFO 9724 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-02-01 20:37:47.729  INFO 9724 --- [Thread-20] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application FLIGHTADMIN-WS with eureka with status DOWN
+2022-02-01 20:37:47.729  INFO 9724 --- [Thread-20] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1643728067729, current=DOWN, previous=UP]
+2022-02-01 20:37:47.731  INFO 9724 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHTADMIN-WS/host.docker.internal:flightadmin-ws:9094: registering service...
+2022-02-01 20:37:47.744  INFO 9724 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHTADMIN-WS/host.docker.internal:flightadmin-ws:9094 - registration status: 204
+2022-02-01 20:37:47.828  INFO 9724 --- [Thread-20] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-01 20:37:48.047  WARN 9724 --- [Thread-20] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-02-01 20:37:48.048  INFO 9724 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2022-02-01 20:37:48.053  INFO 9724 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2022-02-01 20:37:48.055  INFO 9724 --- [Thread-20] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-02-01 20:37:51.059  INFO 9724 --- [Thread-20] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-02-01 20:37:51.076  INFO 9724 --- [Thread-20] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHTADMIN-WS/host.docker.internal:flightadmin-ws:9094 - deregister  status: 200
+2022-02-01 20:37:51.081  INFO 9724 --- [Thread-20] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-02-01 20:37:51.379  INFO 9724 --- [restartedMain] com.flightapp.AdminServiceApplication    : Starting AdminServiceApplication using Java 11.0.12 on JrJavaFseCogn-1 with PID 9724 (C:\flight booking app\Admin-Service\target\classes started by User in C:\flight booking app\Admin-Service)
+2022-02-01 20:37:51.380  INFO 9724 --- [restartedMain] com.flightapp.AdminServiceApplication    : No active profile set, falling back to default profiles: default
+2022-02-01 20:37:52.053  INFO 9724 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-01 20:37:52.072  INFO 9724 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 1 JPA repository interfaces.
+2022-02-01 20:37:52.175  INFO 9724 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ea18b4f7-7710-3626-b4ca-43de719508de
+2022-02-01 20:37:52.347  INFO 9724 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9094 (http)
+2022-02-01 20:37:52.349  INFO 9724 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-01 20:37:52.351  INFO 9724 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-01 20:37:52.444  INFO 9724 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-01 20:37:52.444  INFO 9724 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1061 ms
+2022-02-01 20:37:52.494  INFO 9724 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2022-02-01 20:37:52.502  INFO 9724 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2022-02-01 20:37:52.504  INFO 9724 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testDB'
+2022-02-01 20:37:52.585  INFO 9724 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-01 20:37:52.598  INFO 9724 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-02-01 20:37:52.647  INFO 9724 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-01 20:37:52.647  INFO 9724 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-01 20:37:52.675  WARN 9724 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-01 20:37:52.800  INFO 9724 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4974322d, org.springframework.security.web.context.SecurityContextPersistenceFilter@6e5ddb7, org.springframework.security.web.header.HeaderWriterFilter@1f8f4fd1, org.springframework.security.web.authentication.logout.LogoutFilter@4280ae27, com.flightapp.filter.JwtRequestFilter@1df12d0e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5b28c1d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@60a6babd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@46621a89, org.springframework.security.web.session.SessionManagementFilter@562b94ec, org.springframework.security.web.access.ExceptionTranslationFilter@5fbb8de3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6662e49b]
+2022-02-01 20:37:53.137  WARN 9724 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-02-01 20:37:53.245  INFO 9724 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-02-01 20:37:53.272  WARN 9724 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-02-01 20:37:53.276  INFO 9724 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2022-02-01 20:37:53.305  INFO 9724 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-02-01 20:37:53.309  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-02-01 20:37:53.310  INFO 9724 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-01 20:37:53.311  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-02-01 20:37:53.311  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-02-01 20:37:53.311  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-02-01 20:37:53.312  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-02-01 20:37:53.312  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-02-01 20:37:53.312  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-02-01 20:37:53.313  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-02-01 20:37:53.343  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-02-01 20:37:53.344  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-02-01 20:37:53.345  INFO 9724 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-02-01 20:37:53.347  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1643728073347 with initial instances count: 2
+2022-02-01 20:37:53.348  INFO 9724 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application FLIGHTADMIN-WS with eureka with status UP
+2022-02-01 20:37:53.348  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1643728073348, current=UP, previous=STARTING]
+2022-02-01 20:37:53.351  INFO 9724 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9094 (http) with context path ''
+2022-02-01 20:37:53.352  INFO 9724 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9094
+2022-02-01 20:37:53.355  INFO 9724 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHTADMIN-WS/host.docker.internal:flightadmin-ws:9094: registering service...
+2022-02-01 20:37:53.382  INFO 9724 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHTADMIN-WS/host.docker.internal:flightadmin-ws:9094 - registration status: 204
+2022-02-01 20:37:53.486  INFO 9724 --- [restartedMain] com.flightapp.AdminServiceApplication    : Started AdminServiceApplication in 2.26 seconds (JVM running for 458.659)
+2022-02-01 20:37:53.492  INFO 9724 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-02-01 20:37:54.583  INFO 9724 --- [Thread-26] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application FLIGHTADMIN-WS with eureka with status DOWN
+2022-02-01 20:37:54.584  INFO 9724 --- [Thread-26] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1643728074584, current=DOWN, previous=UP]
+2022-02-01 20:37:54.585  INFO 9724 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHTADMIN-WS/host.docker.internal:flightadmin-ws:9094: registering service...
+2022-02-01 20:37:54.593  INFO 9724 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHTADMIN-WS/host.docker.internal:flightadmin-ws:9094 - registration status: 204
+2022-02-01 20:37:54.668  INFO 9724 --- [Thread-26] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-01 20:37:54.876  WARN 9724 --- [Thread-26] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-02-01 20:37:54.877  INFO 9724 --- [Thread-26] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2022-02-01 20:37:54.883  INFO 9724 --- [Thread-26] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2022-02-01 20:37:54.884  INFO 9724 --- [Thread-26] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-02-01 20:37:57.898  INFO 9724 --- [Thread-26] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-02-01 20:37:57.915  INFO 9724 --- [Thread-26] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHTADMIN-WS/host.docker.internal:flightadmin-ws:9094 - deregister  status: 200
+2022-02-01 20:37:57.919  INFO 9724 --- [Thread-26] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-02-01 20:37:58.219  INFO 9724 --- [restartedMain] com.flightapp.AdminServiceApplication    : Starting AdminServiceApplication using Java 11.0.12 on JrJavaFseCogn-1 with PID 9724 (C:\flight booking app\Admin-Service\target\classes started by User in C:\flight booking app\Admin-Service)
+2022-02-01 20:37:58.219  INFO 9724 --- [restartedMain] com.flightapp.AdminServiceApplication    : No active profile set, falling back to default profiles: default
+2022-02-01 20:37:58.673  INFO 9724 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-01 20:37:58.692  INFO 9724 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 1 JPA repository interfaces.
+2022-02-01 20:37:58.796  INFO 9724 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ea18b4f7-7710-3626-b4ca-43de719508de
+2022-02-01 20:37:58.907  INFO 9724 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9094 (http)
+2022-02-01 20:37:58.908  INFO 9724 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-01 20:37:58.908  INFO 9724 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-01 20:37:59.478  INFO 9724 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-01 20:37:59.480  INFO 9724 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1258 ms
+2022-02-01 20:37:59.516  INFO 9724 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2022-02-01 20:37:59.519  INFO 9724 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2022-02-01 20:37:59.520  INFO 9724 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testDB'
+2022-02-01 20:37:59.566  INFO 9724 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-01 20:37:59.574  INFO 9724 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-02-01 20:37:59.629  INFO 9724 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-01 20:37:59.629  INFO 9724 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-01 20:37:59.658  WARN 9724 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-01 20:37:59.758  INFO 9724 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2e08475f, org.springframework.security.web.context.SecurityContextPersistenceFilter@61eaa423, org.springframework.security.web.header.HeaderWriterFilter@6528fbe9, org.springframework.security.web.authentication.logout.LogoutFilter@c42dc94, com.flightapp.filter.JwtRequestFilter@4f1db43a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@26f30bce, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4264b4a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@600e790c, org.springframework.security.web.session.SessionManagementFilter@2223d092, org.springframework.security.web.access.ExceptionTranslationFilter@7bf7952d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@71996d34]
+2022-02-01 20:38:00.105  WARN 9724 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-02-01 20:38:00.215  INFO 9724 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-02-01 20:38:00.243  WARN 9724 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-02-01 20:38:00.247  INFO 9724 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2022-02-01 20:38:00.291  INFO 9724 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-02-01 20:38:00.295  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-02-01 20:38:00.295  INFO 9724 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-01 20:38:00.297  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-02-01 20:38:00.297  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-02-01 20:38:00.297  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-02-01 20:38:00.297  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-02-01 20:38:00.298  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-02-01 20:38:00.298  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-02-01 20:38:00.298  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-02-01 20:38:00.316  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-02-01 20:38:00.317  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-02-01 20:38:00.318  INFO 9724 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-02-01 20:38:00.319  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1643728080319 with initial instances count: 1
+2022-02-01 20:38:00.325  INFO 9724 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application FLIGHTADMIN-WS with eureka with status UP
+2022-02-01 20:38:00.325  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1643728080325, current=UP, previous=STARTING]
+2022-02-01 20:38:00.328  INFO 9724 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9094 (http) with context path ''
+2022-02-01 20:38:00.328  INFO 9724 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9094
+2022-02-01 20:38:00.349  INFO 9724 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHTADMIN-WS/host.docker.internal:flightadmin-ws:9094: registering service...
+2022-02-01 20:38:00.384  INFO 9724 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHTADMIN-WS/host.docker.internal:flightadmin-ws:9094 - registration status: 204
+2022-02-01 20:38:00.500  INFO 9724 --- [restartedMain] com.flightapp.AdminServiceApplication    : Started AdminServiceApplication in 2.425 seconds (JVM running for 465.673)
+2022-02-01 20:38:00.504  INFO 9724 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-02-01 20:38:03.608  INFO 9724 --- [Thread-32] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application FLIGHTADMIN-WS with eureka with status DOWN
+2022-02-01 20:38:03.610  INFO 9724 --- [Thread-32] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1643728083610, current=DOWN, previous=UP]
+2022-02-01 20:38:03.610  INFO 9724 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHTADMIN-WS/host.docker.internal:flightadmin-ws:9094: registering service...
+2022-02-01 20:38:03.622  INFO 9724 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHTADMIN-WS/host.docker.internal:flightadmin-ws:9094 - registration status: 204
+2022-02-01 20:38:03.699  INFO 9724 --- [Thread-32] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-01 20:38:03.918  WARN 9724 --- [Thread-32] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-02-01 20:38:03.920  INFO 9724 --- [Thread-32] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2022-02-01 20:38:03.924  INFO 9724 --- [Thread-32] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2022-02-01 20:38:03.926  INFO 9724 --- [Thread-32] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-02-01 20:38:06.927  INFO 9724 --- [Thread-32] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-02-01 20:38:06.944  INFO 9724 --- [Thread-32] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHTADMIN-WS/host.docker.internal:flightadmin-ws:9094 - deregister  status: 200
+2022-02-01 20:38:06.948  INFO 9724 --- [Thread-32] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-02-01 20:38:07.255  INFO 9724 --- [restartedMain] com.flightapp.AdminServiceApplication    : Starting AdminServiceApplication using Java 11.0.12 on JrJavaFseCogn-1 with PID 9724 (C:\flight booking app\Admin-Service\target\classes started by User in C:\flight booking app\Admin-Service)
+2022-02-01 20:38:07.257  INFO 9724 --- [restartedMain] com.flightapp.AdminServiceApplication    : No active profile set, falling back to default profiles: default
+2022-02-01 20:38:07.748  INFO 9724 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-02-01 20:38:07.767  INFO 9724 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interfaces.
+2022-02-01 20:38:07.873  INFO 9724 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ea18b4f7-7710-3626-b4ca-43de719508de
+2022-02-01 20:38:07.977  INFO 9724 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9096 (http)
+2022-02-01 20:38:07.978  INFO 9724 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-01 20:38:07.979  INFO 9724 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-01 20:38:08.010  INFO 9724 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-02-01 20:38:08.010  INFO 9724 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 748 ms
+2022-02-01 20:38:08.051  INFO 9724 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2022-02-01 20:38:08.058  INFO 9724 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2022-02-01 20:38:08.058  INFO 9724 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:mem:testDB'
+2022-02-01 20:38:08.104  INFO 9724 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-01 20:38:08.112  INFO 9724 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-02-01 20:38:08.158  INFO 9724 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-01 20:38:08.160  INFO 9724 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-02-01 20:38:08.187  WARN 9724 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-01 20:38:08.284  INFO 9724 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@378dd29c, org.springframework.security.web.context.SecurityContextPersistenceFilter@dcffcdf, org.springframework.security.web.header.HeaderWriterFilter@3221c864, org.springframework.security.web.authentication.logout.LogoutFilter@218ac97a, com.flightapp.filter.JwtRequestFilter@21a02b54, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@677ba49e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5ba532fd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2745a5c7, org.springframework.security.web.session.SessionManagementFilter@33e76369, org.springframework.security.web.access.ExceptionTranslationFilter@45a5ef6f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@27dce249]
+2022-02-01 20:38:08.643  WARN 9724 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-02-01 20:38:08.756  INFO 9724 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-02-01 20:38:08.782  WARN 9724 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-02-01 20:38:08.786  INFO 9724 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 17 endpoint(s) beneath base path '/actuator'
+2022-02-01 20:38:08.822  INFO 9724 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-02-01 20:38:08.826  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-02-01 20:38:08.826  INFO 9724 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-02-01 20:38:08.830  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-02-01 20:38:08.830  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-02-01 20:38:08.830  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-02-01 20:38:08.830  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-02-01 20:38:08.830  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-02-01 20:38:08.830  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-02-01 20:38:08.831  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-02-01 20:38:08.847  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-02-01 20:38:08.847  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-02-01 20:38:08.848  INFO 9724 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-02-01 20:38:08.849  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1643728088849 with initial instances count: 1
+2022-02-01 20:38:08.850  INFO 9724 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application FLIGHTADMIN-WS with eureka with status UP
+2022-02-01 20:38:08.851  INFO 9724 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1643728088851, current=UP, previous=STARTING]
+2022-02-01 20:38:08.853  INFO 9724 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9096 (http) with context path ''
+2022-02-01 20:38:08.853  INFO 9724 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9096
+2022-02-01 20:38:08.856  INFO 9724 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHTADMIN-WS/host.docker.internal:flightadmin-ws:9096: registering service...
+2022-02-01 20:38:08.870  INFO 9724 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHTADMIN-WS/host.docker.internal:flightadmin-ws:9096 - registration status: 204
+2022-02-01 20:38:08.994  INFO 9724 --- [restartedMain] com.flightapp.AdminServiceApplication    : Started AdminServiceApplication in 1.882 seconds (JVM running for 474.166)
+2022-02-01 20:38:08.997  INFO 9724 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-02-01 20:38:29.148  INFO 9724 --- [http-nio-9096-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-02-01 20:38:29.148  INFO 9724 --- [http-nio-9096-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-02-01 20:38:29.150  INFO 9724 --- [http-nio-9096-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-02-01 20:39:14.484  INFO 9724 --- [Thread-38] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application FLIGHTADMIN-WS with eureka with status DOWN
+2022-02-01 20:39:14.487  INFO 9724 --- [Thread-38] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1643728154487, current=DOWN, previous=UP]
+2022-02-01 20:39:14.508  INFO 9724 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHTADMIN-WS/host.docker.internal:flightadmin-ws:9096: registering service...
+2022-02-01 20:39:14.529  INFO 9724 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHTADMIN-WS/host.docker.internal:flightadmin-ws:9096 - registration status: 204
+2022-02-01 20:39:14.613  INFO 9724 --- [Thread-38] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-02-01 20:39:14.841  WARN 9724 --- [Thread-38] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-02-01 20:39:14.844  INFO 9724 --- [Thread-38] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2022-02-01 20:39:14.847  INFO 9724 --- [Thread-38] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2022-02-01 20:39:14.848  INFO 9724 --- [Thread-38] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-02-01 20:39:17.857  INFO 9724 --- [Thread-38] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-02-01 20:39:17.874  INFO 9724 --- [Thread-38] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_FLIGHTADMIN-WS/host.docker.internal:flightadmin-ws:9096 - deregister  status: 200
+2022-02-01 20:39:17.878  INFO 9724 --- [Thread-38] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
